@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+  }
+  
+  #selects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #selects img {
+    width: 200px;
+    height: auto;
+  }
+  
+  #selects select {
+    margin: 0 10px;
+  }
+  
+  #ingresar {
+    margin: 20px auto;
+  }
+  
+  #passMessage {
+    text-align: center;
+  }
+  

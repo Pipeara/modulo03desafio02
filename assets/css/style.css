@@ -1,0 +1,10 @@
+.selected {
+    border: 2px solid red;
+  }
+
+  .red-border {
+    border: 2px solid red;
+}
+.imagen img {
+  max-width: 200px;
+}

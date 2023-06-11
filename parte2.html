@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir Stickers</title>
+    <link rel="stylesheet" href="./assets/css/style2.css">
+</head>
+<body>
+    <h1>Pedir Stickers</h1>
+
+    <div class="container">
+        <div class="sticker">
+            <h2>Sticker Tipo A</h2>
+            <img src="./assets/img/label-1197365_1280.png" alt="Sticker Tipo A">
+            <label for="stickerA">Cantidad:</label>
+            <input type="number" id="stickerA" min="0" max="10">
+        </div>
+
+        <div class="sticker">
+            <h2>Sticker Tipo B</h2>
+            <img src="./assets/img/animal-2029280_1280.webp" alt="Sticker Tipo B">
+            <label for="stickerB">Cantidad:</label>
+            <input type="number" id="stickerB" min="0" max="10">
+        </div>
+
+        <div class="sticker">
+            <h2>Sticker Tipo C</h2>
+            <img src="./assets/img/anthropomorphized-animals-2023327_1280.png" alt="Sticker Tipo C">
+            <label for="stickerC">Cantidad:</label>
+            <input type="number" id="stickerC" min="0" max="10">
+        </div>
+    </div>
+
+    <button onclick="calcularTotal()">Calcular Total</button>
+
+    <p id="message"></p>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
